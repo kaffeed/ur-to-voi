@@ -1,0 +1,14 @@
+{
+	"manifest_version": 1,
+	"name": "ur-to-voi",
+	"version": "1.0",
+	"description": "An extension to replace stupid 'ur' in vianesse dialect.",
+	"content_scripts":
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["ur-to-voi.js"],
+			"run_at": "document_end"
+		}
+	]
+}

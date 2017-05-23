@@ -1,5 +1,5 @@
 {
-	"manifest_version": 1,
+	"manifest_version": 2,
 	"name": "ur-to-voi",
 	"version": "1.0",
 	"description": "An extension to replace stupid 'ur' in vianesse dialect.",
